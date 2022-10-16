@@ -9,6 +9,7 @@ import {
 } 
 from 'react-router-dom';
 import Error from './Error';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const router = createBrowserRouter([
   {
