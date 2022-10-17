@@ -7,15 +7,15 @@ import rocket from '../../assets/images/rocket.svg';
 
 const Header = () => {
   return (
-    <div>
-        <nav>
+    <div className='container'>
+        <nav className='Header'>
             <img src={logo} alt="logo" />
-            <ul>
-                <li><Link to='/Course'>The Course</Link></li>
-                <li><Link to='/Payment'>The Cost</Link></li>
-                <li><Link to='/Support'>Learner Support</Link></li>
-                <li><Link to='/Outcome'>Learner Outcomes</Link></li>
-                <li><Link to='/About'>About Us</Link></li>
+            <ul className='nav'>
+                <li><Link to='/Course' className='link'>The Course</Link></li>
+                <li><Link to='/Payment'className='link'>The Cost</Link></li>
+                <li><Link to='/Support'className='link'>Learner Support</Link></li>
+                <li><Link to='/Outcome'className='link'>Learner Outcomes</Link></li>
+                <li><Link to='/About'className='link'>About Us</Link></li>
                 <AppButton
                     border='none'
                     color='#00AB97'
@@ -26,6 +26,7 @@ const Header = () => {
                     children ="Apply Now"
                     icon={rocket}
                     textColor='#fff'
+                    cursor='pointer'
                 />
             </ul>
         </nav>

@@ -10,6 +10,7 @@ interface Props{
     width:string;
     textColor:string;
     icon:string;
+    cursor:string;
 }
 
 
@@ -22,7 +23,8 @@ const AppButton:React.FC<Props> = ({
     onClick,
     radius,
     width,
-    icon
+    icon,
+    cursor,
 
 }) => {
   return (
@@ -35,6 +37,7 @@ const AppButton:React.FC<Props> = ({
             height,
             width,
             color:textColor,
+            cursor:cursor,
         }}
     >
         <img src={icon}/>
