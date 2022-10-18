@@ -7,9 +7,9 @@ import rocket from '../../assets/images/rocket.svg';
 
 const Header = () => {
   return (
-    <div className='container'>
-        <nav className='Header'>
-            <img src={logo} alt="logo" />
+    <div className='container head'>
+        <nav className='container Header'>
+            <img className='logo' src={logo} alt="logo" />
             <ul className='nav'>
                 <li><Link to='/Course' className='link'>The Course</Link></li>
                 <li><Link to='/Payment'className='link'>The Cost</Link></li>
