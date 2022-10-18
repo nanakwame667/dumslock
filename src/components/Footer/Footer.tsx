@@ -15,7 +15,7 @@ const Footer = () => {
     <div className='container Footer'>
         <div className='footer'>
             <div className='section1'>
-                <img className='logo' src={logo} alt="logo" />
+                <img className='logo1' src={logo} alt="logo" />
                 <p className='first'>Reskill in cyber security and launch your</p>
                 <p className='second'>dream career</p>
                 <img className='underline' src={underline} alt="underline" />
