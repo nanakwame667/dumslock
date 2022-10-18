@@ -1,0 +1,124 @@
+.Hero{
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section-1{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    min-height: 50vh;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.train{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    text-align: start;
+    color: #0F3886;
+}
+.reskill{
+    font-size: 45px;
+    text-align: start;
+    color: #4400B4;
+}
+.dream{
+    color: #00AB97;
+}
+.underline-new{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 50px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.btn-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.go{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #00AB97;
+}
+.arrow{
+    position: absolute;
+    left: 0;
+    margin-left: 105px;
+    top: 0;
+    margin-top: -5px;
+    width: 30%;
+}
+.hero-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    position: relative;
+}
+
+.hero-circle-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url('../../assets/images/image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-top: -250px;
+    left: 0;
+    margin-left: 50px;
+}
+
+.hero-circle-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-image: url('../../assets/images/image2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-top: -150px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.hero-circle-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url('../../assets/images/image3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -99;
+    position: absolute;
+    top: 0;
+    margin-top: -90px;
+    left: 0;
+    margin-left: 50px;
+}
